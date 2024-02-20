@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.8" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Container class="javax.swing.JPopupMenu" name="jpmMago">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+        <Property name="useNullLayout" type="boolean" value="true"/>
+      </Layout>
+      <SubComponents>
+        <Menu class="javax.swing.JMenu" name="jmnGrupo1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Grupo 1"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="jmiGrp1Itn1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="."/>
+                <Property name="toolTipText" type="java.lang.String" value="Matches any character except line breaks. Equivalent to [^\u005cn\u005cr]." containsInvalidXMLChars="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jmiGrp1Itn2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="[\u005cs\u005cS]" containsInvalidXMLChars="true"/>
+                <Property name="toolTipText" type="java.lang.String" value="A character set that can be used to match any character, including line breaks."/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jmiGrp1Itn3">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="\u005cw" containsInvalidXMLChars="true"/>
+                <Property name="toolTipText" type="java.lang.String" value="Matches any word character (alphanumeric &amp; underscore). Only matches low-ascii characters (no accented or non-roman characters). Equivalent to [A-Za-z0-9_]"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jmiGrp1Itn4">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="\u005cW" containsInvalidXMLChars="true"/>
+                <Property name="toolTipText" type="java.lang.String" value="Matches any character that is not a word character (alphanumeric &amp; underscore). Equivalent to [^A-Za-z0-9_]"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jmiGrp1Itn5">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="\u005cd" containsInvalidXMLChars="true"/>
+                <Property name="toolTipText" type="java.lang.String" value="Matches any digit character (0-9). Equivalent to [0-9]."/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jmiGrp1Itn6">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="\u005cD" containsInvalidXMLChars="true"/>
+                <Property name="toolTipText" type="java.lang.String" value="Matches any character that is not a digit character (0-9). Equivalent to [^0-9]."/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jmiGrp1Itn7">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="\u005cs" containsInvalidXMLChars="true"/>
+                <Property name="toolTipText" type="java.lang.String" value="Matches any whitespace character (spaces, tabs, line breaks)."/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jmiGrp1Itn8">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="\u005cS" containsInvalidXMLChars="true"/>
+                <Property name="toolTipText" type="java.lang.String" value="Matches any character that is not a whitespace character (spaces, tabs, line breaks)."/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jmiGrp1Itn9">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="[abc]"/>
+                <Property name="toolTipText" type="java.lang.String" value="Match any character in the set."/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jmiGrp1Itn10">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="[^abc]"/>
+                <Property name="toolTipText" type="java.lang.String" value="Match any character that is not in the set."/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jmiGrp1Itn11">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="[a-c]"/>
+                <Property name="toolTipText" type="java.lang.String" value="Matches a character having a character code between the two specified characters inclusive."/>
+              </Properties>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="jmnGrupo2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Grupo 2"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="jmiGrp2Itn1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="^"/>
+                <Property name="toolTipText" type="java.lang.String" value="Matches the beginning of the string, or the beginning of a line if the multiline flag (m) is enabled. This matches a position, not a character."/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jmiGrp2Itn2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="$"/>
+                <Property name="toolTipText" type="java.lang.String" value="Matches the end of the string, or the end of a line if the multiline flag (m) is enabled. This matches a position, not a character."/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jmiGrp2Itn3">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="\u005cb" containsInvalidXMLChars="true"/>
+                <Property name="toolTipText" type="java.lang.String" value="Matches a word boundary position such as whitespace, punctuation, or the start/end of the string. This matches a position, not a character."/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jmiGrp2Itn4">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="\u005cB" containsInvalidXMLChars="true"/>
+                <Property name="toolTipText" type="java.lang.String" value="Matches any position that is not a word boundary. This matches a position, not a character."/>
+              </Properties>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="jmnGrupo3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Grupo 3"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="jmiGrp3Itn1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="\u005c000" containsInvalidXMLChars="true"/>
+                <Property name="toolTipText" type="java.lang.String" value="Octal escaped character in the form \u005c000. Value must be less than 255 (\u005c251 for &#xa9;)." containsInvalidXMLChars="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jmiGrp3Itn2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="\u005cxFF" containsInvalidXMLChars="true"/>
+                <Property name="toolTipText" type="java.lang.String" value="Hexadecimal escaped character in the form \u005cxFF. (\u005cxA9 for &#xa9;)" containsInvalidXMLChars="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jmiGrp3Itn3">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="\u005cxFF" containsInvalidXMLChars="true"/>
+                <Property name="toolTipText" type="java.lang.String" value="Hexadecimal escaped character in the form \u005cxFF. (\u005cxA9 for &#xa9;)" containsInvalidXMLChars="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jmiGrp3Itn4">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="\u005cuFFFF" containsInvalidXMLChars="true"/>
+                <Property name="toolTipText" type="java.lang.String" value="Unicode escaped character in the form \u005cuFFFF. (\u005cu00A9 for &#xa9;)" containsInvalidXMLChars="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jmiGrp3Itn5">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="\u005ccI" containsInvalidXMLChars="true"/>
+                <Property name="toolTipText" type="java.lang.String" value="Escaped control character in the form \u005ccZ. This can range from \u005ccA (NULL, char code 0) to \u005ccZ (EM, char code 25). \u005ccI matches TAB (char code 9)." containsInvalidXMLChars="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jmiGrp3Itn6">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="\u005ct" containsInvalidXMLChars="true"/>
+                <Property name="toolTipText" type="java.lang.String" value="Matches a TAB character (char code 9)."/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jmiGrp3Itn7">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="\u005cn" containsInvalidXMLChars="true"/>
+                <Property name="toolTipText" type="java.lang.String" value="Matches a LINE FEED character (char code 10)."/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jmiGrp3Itn8">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="\u005cv" containsInvalidXMLChars="true"/>
+                <Property name="toolTipText" type="java.lang.String" value="Matches a VERTICAL TAB character (char code 11)."/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jmiGrp3Itn9">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="\u005cf" containsInvalidXMLChars="true"/>
+                <Property name="toolTipText" type="java.lang.String" value="Matches a FORM FEED character (char code 12)."/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jmiGrp3Itn10">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="\u005cr" containsInvalidXMLChars="true"/>
+                <Property name="toolTipText" type="java.lang.String" value="Matches a CARRIAGE RETURN character (char code 13)."/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jmiGrp3Itn11">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="\u005c0" containsInvalidXMLChars="true"/>
+                <Property name="toolTipText" type="java.lang.String" value="Matches a NULL character (char code 0)."/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jmiGrp3Itn12">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="\u005c." containsInvalidXMLChars="true"/>
+                <Property name="toolTipText" type="java.lang.String" value="Matches a &quot;.&quot; character"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jmiGrp3Itn13">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="\u005c\u005c" containsInvalidXMLChars="true"/>
+                <Property name="toolTipText" type="java.lang.String" value="Matches a &quot;\u005c&quot; character" containsInvalidXMLChars="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jmiGrp3Itn14">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="\u005c*" containsInvalidXMLChars="true"/>
+                <Property name="toolTipText" type="java.lang.String" value="Matches a &quot;*&quot; character"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jmiGrp3Itn15">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="\u005c+" containsInvalidXMLChars="true"/>
+                <Property name="toolTipText" type="java.lang.String" value="Matches a &quot;+&quot; character"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jmiGrp3Itn16">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="\u005c?" containsInvalidXMLChars="true"/>
+                <Property name="toolTipText" type="java.lang.String" value="Matches a &quot;?&quot; character"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jmiGrp3Itn17">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="\u005c{" containsInvalidXMLChars="true"/>
+                <Property name="toolTipText" type="java.lang.String" value="Matches a &quot;{&quot; character"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jmiGrp3Itn18">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="\u005c]" containsInvalidXMLChars="true"/>
+                <Property name="toolTipText" type="java.lang.String" value="Matches a &quot;]&quot; character"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jmiGrp3Itn19">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="\u005c[" containsInvalidXMLChars="true"/>
+                <Property name="toolTipText" type="java.lang.String" value="Matches a &quot;[&quot; character"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jmiGrp3Itn20">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="\u005c$" containsInvalidXMLChars="true"/>
+                <Property name="toolTipText" type="java.lang.String" value="Matches a &quot;$&quot; character"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jmiGrp3Itn21">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="\u005c^" containsInvalidXMLChars="true"/>
+                <Property name="toolTipText" type="java.lang.String" value="Matches a &quot;^&quot; character"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jmiGrp3Itn22">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="\u005c/" containsInvalidXMLChars="true"/>
+                <Property name="toolTipText" type="java.lang.String" value="Matches a &quot;/&quot; character"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jmiGrp3Itn23">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="\u005c|" containsInvalidXMLChars="true"/>
+                <Property name="toolTipText" type="java.lang.String" value="Matches a &quot;|&quot; character"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jmiGrp3Itn24">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="\u005c)" containsInvalidXMLChars="true"/>
+                <Property name="toolTipText" type="java.lang.String" value="Matches a &quot;)&quot; character"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jmiGrp3Itn25">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="\u005c(" containsInvalidXMLChars="true"/>
+                <Property name="toolTipText" type="java.lang.String" value="Matches a &quot;(&quot; character"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jmiGrp3Itn26">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="\u005c}" containsInvalidXMLChars="true"/>
+                <Property name="toolTipText" type="java.lang.String" value="Matches a &quot;}&quot; character"/>
+              </Properties>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="jmnGrupo4">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Grupo 4"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="jmiGrp4Itn1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="(abc)"/>
+                <Property name="toolTipText" type="java.lang.String" value="Groups multiple tokens together and creates a capture group for extracting a substring or using a backreference."/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jmiGrp4Itn2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="\u005c1" containsInvalidXMLChars="true"/>
+                <Property name="toolTipText" type="java.lang.String" value="Matches the results of a previous capture group. For example \u005c1 matches the results of the first capture group &amp; \u005c3 matches the third." containsInvalidXMLChars="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jmiGrp4Itn3">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="(?:abc)"/>
+                <Property name="toolTipText" type="java.lang.String" value="Groups multiple tokens together without creating a capture group."/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jmiGrp4Itn4">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="(?=abc)"/>
+                <Property name="toolTipText" type="java.lang.String" value="Matches a group after the main expression without including it in the result."/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jmiGrp4Itn5">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="(?!abc)"/>
+                <Property name="toolTipText" type="java.lang.String" value="Specifies a group that can not match after the main expression (if it matches, the result is discarded)."/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jmiGrp4Itn6">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="(?!abc)"/>
+                <Property name="toolTipText" type="java.lang.String" value="Specifies a group that can not match after the main expression (if it matches, the result is discarded)."/>
+              </Properties>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="jmnGrupo5">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Grupo 5"/>
+            <Property name="toolTipText" type="java.lang.String" value=""/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="jmiGrp5Itn1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="+"/>
+                <Property name="toolTipText" type="java.lang.String" value="Matches 1 or more of the preceding token."/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jmiGrp5Itn2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="*"/>
+                <Property name="toolTipText" type="java.lang.String" value="Matches 0 or more of the preceding token."/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jmiGrp5Itn3">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="{1,3}"/>
+                <Property name="toolTipText" type="java.lang.String" value="Matches the specified quantity of the previous token. {1,3} will match 1 to 3. {3} will match exactly 3. {3,} will match 3 or more. "/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jmiGrp5Itn4">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="?"/>
+                <Property name="toolTipText" type="java.lang.String" value="Matches 0 or 1 of the preceding token, effectively making it optional."/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jmiGrp5Itn5">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="|"/>
+                <Property name="toolTipText" type="java.lang.String" value="Acts like a boolean OR. Matches the expression before or after the |.  It can operate within a group, or on a whole expression. The patterns will be tested in order."/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jmiGrp5Itn6">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="?"/>
+                <Property name="toolTipText" type="java.lang.String" value="Makes the preceding quantifier lazy, causing it to match as few characters as possible. By default, quantifiers are greedy, and will match as many characters as possible."/>
+              </Properties>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="jmnGrupo6">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Grupo 6"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="jmiGrp6Itn1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="i"/>
+                <Property name="toolTipText" type="java.lang.String" value="Makes the whole expression case-insensitive. For example, /aBc/i would match AbC."/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jmiGrp6Itn2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="g"/>
+                <Property name="toolTipText" type="java.lang.String" value="Retain the index of the last match, allowing subsequent searches to start from the end of the previous match.  Without the global flag, subsequent searches will return the same match."/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jmiGrp6Itn3">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="m"/>
+                <Property name="toolTipText" type="java.lang.String" value="When the multiline flag is enabled, beginning and end anchors (^ and $) will match the start and end of a line, instead of the start and end of the whole string."/>
+              </Properties>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Component class="javax.swing.JPopupMenu$Separator" name="jSeparator1">
+        </Component>
+        <MenuItem class="javax.swing.JMenuItem" name="jmiNumeroPagina">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="N&#xfa;mero de P&#xe1;gina"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jmiNumeroPaginaActionPerformed"/>
+          </Events>
+        </MenuItem>
+      </SubComponents>
+    </Container>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="title" type="java.lang.String" value="Formula de Caracteres"/>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <Events>
+    <EventHandler event="windowClosing" listener="java.awt.event.WindowListener" parameters="java.awt.event.WindowEvent" handler="formWindowClosing"/>
+  </Events>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="jlbPadrao" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="jckContendo" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Component id="jcbFormula" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jbtMago" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="jbtLimpar" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="144" max="32767" attributes="0"/>
+                      <Component id="jbtConfirmar" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jbtFechar" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jlbPadrao" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jckContendo" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jcbFormula" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jbtMago" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jbtFechar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jbtConfirmar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jbtLimpar" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jlbPadrao">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="F&#xf3;rmula"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="jcbFormula">
+      <Properties>
+        <Property name="editable" type="boolean" value="true"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="jbtLimpar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Limpar Hist&#xf3;rico"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbtLimparActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jbtConfirmar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Confirmar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbtConfirmarActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jbtFechar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Fechar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbtFecharActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jckContendo">
+      <Properties>
+        <Property name="selected" type="boolean" value="true"/>
+        <Property name="text" type="java.lang.String" value="Contendo"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="jbtMago">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Mago"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbtMagoActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>

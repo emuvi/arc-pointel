@@ -1,0 +1,1595 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="title" type="java.lang.String" value="PointelAdmin - Liquidar"/>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jtbOpcoes" max="32767" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jlbValor" min="-2" max="-2" attributes="0"/>
+                          <Component id="jftValor" alignment="0" min="-2" pref="90" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jftSaldo" alignment="0" min="-2" pref="90" max="-2" attributes="0"/>
+                          <Component id="jlbSaldo" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="edtLiquidar" alignment="0" min="-2" pref="100" max="-2" attributes="0"/>
+                          <Component id="jlbLiquidar" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="edtDesconto" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlbDesconto" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="edtJuros" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlbJuros" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jlbMulta" min="-2" max="-2" attributes="0"/>
+                          <Component id="edtMulta" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jtfSerieLiq" alignment="0" min="-2" pref="70" max="-2" attributes="0"/>
+                                  <Component id="jlbSerieLiq" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jlbFaturaLiq" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jtfFaturaLiq" min="-2" pref="120" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jlbLancamentoLiq" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jcbLancamentoLiq" min="-2" pref="120" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jlbData" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jftData" alignment="0" min="-2" pref="100" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jlbEmissao" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jftEmissao" alignment="0" min="-2" pref="100" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jlbVencimento" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jftVencimento" alignment="0" min="-2" pref="100" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jlbTipoPgto" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jtfTipoPgto" min="-2" pref="80" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jlbTipoPgtoNome" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jtfTipoPgtoNome" alignment="0" min="-2" pref="159" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jtfRepresentante" alignment="0" min="-2" pref="80" max="-2" attributes="0"/>
+                                  <Component id="jlbRepresentante" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jlbRepresentanteNome" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jtfRepresentanteNome" alignment="0" min="-2" pref="159" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jlbComissao" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jftComissao" alignment="0" min="-2" pref="90" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jlbSerie" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jtfSerie" alignment="0" min="-2" pref="60" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jlbFatura" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jtfFatura" alignment="0" min="-2" pref="90" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jlbPedVendedor" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jtfPedVendedor" alignment="0" min="-2" pref="90" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jtfPessoa" alignment="0" min="-2" pref="80" max="-2" attributes="0"/>
+                                  <Component id="jlbPessoa" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jlbPessoaNome" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jtfPessoaNome" alignment="0" min="-2" pref="159" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jtfCobranca" alignment="0" min="-2" pref="80" max="-2" attributes="0"/>
+                                  <Component id="jlbCobranca" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jlbCobrancaNome" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jtfCobrancaNome" alignment="0" min="-2" pref="159" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jtfHistorico" alignment="0" min="-2" pref="80" max="-2" attributes="0"/>
+                                  <Component id="jlbHistorico" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jlbHistoricoNome" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jtfHistoricoNome" alignment="0" min="-2" pref="159" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jtfConta" alignment="0" min="-2" pref="80" max="-2" attributes="0"/>
+                                  <Component id="jlbConta" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jlbContaNome" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jtfContaNome" alignment="0" min="-2" pref="159" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jtfPortador" alignment="0" min="-2" pref="80" max="-2" attributes="0"/>
+                                  <Component id="jlbPortador" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jlbPortadorNome" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jtfPortadorNome" alignment="0" min="-2" pref="159" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="edtDataLiquidacao" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jlbDataLiq" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jlbTotalLiq" min="-2" max="-2" attributes="0"/>
+                                  <Group type="102" attributes="0">
+                                      <Component id="edtLiqTotal" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="jbtLiquidar" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jlbSerieLiq" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlbFaturaLiq" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlbLancamentoLiq" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jcbLancamentoLiq" alignment="0" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jtfSerieLiq" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jtfFaturaLiq" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="jlbVencimento" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jftVencimento" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="jlbEmissao" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jftEmissao" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="jlbData" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jftData" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="jlbPedVendedor" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jtfPedVendedor" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="jlbFatura" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jtfFatura" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="jlbSerie" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jtfSerie" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jlbPessoa" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlbPessoaNome" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jtfPessoa" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jtfPessoaNome" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jlbCobranca" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlbCobrancaNome" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jtfCobranca" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jtfCobrancaNome" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jlbHistorico" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlbHistoricoNome" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jtfHistorico" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jtfHistoricoNome" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jlbConta" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlbContaNome" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jtfConta" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jtfContaNome" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jlbPortador" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlbPortadorNome" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jtfPortador" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jtfPortadorNome" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <Component id="jlbTipoPgto" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jtfTipoPgto" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Component id="jlbTipoPgtoNome" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jtfTipoPgtoNome" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jlbRepresentante" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jlbRepresentanteNome" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jtfRepresentante" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jtfRepresentanteNome" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jlbComissao" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jftComissao" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="18" pref="18" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jlbSaldo" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlbLiquidar" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlbDesconto" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlbValor" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jlbJuros" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlbMulta" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jftSaldo" alignment="3" max="32767" attributes="0"/>
+                      <Component id="jftValor" alignment="3" max="32767" attributes="0"/>
+                  </Group>
+                  <Component id="edtLiquidar" alignment="0" max="32767" attributes="0"/>
+                  <Component id="edtDesconto" alignment="0" max="32767" attributes="0"/>
+                  <Component id="edtJuros" alignment="0" max="32767" attributes="0"/>
+                  <Component id="edtMulta" alignment="0" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="jtbOpcoes" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jlbDataLiq" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jlbTotalLiq" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="edtLiqTotal" min="-2" max="-2" attributes="0"/>
+                  <Component id="jbtLiquidar" min="-2" max="-2" attributes="0"/>
+                  <Component id="edtDataLiquidacao" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jlbSerieLiq">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="S&#xe9;rie"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jtfSerieLiq">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlbFaturaLiq">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Fatura"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jtfFaturaLiq">
+      <Events>
+        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jtfFaturaLiqFocusLost"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Container class="javax.swing.JTabbedPane" name="jtbOpcoes">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
+            <EtchetBorder/>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jpnLiquidacao">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Liquida&#xe7;&#xe3;o">
+                <Property name="tabTitle" type="java.lang.String" value="Liquida&#xe7;&#xe3;o"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jtfLiqComplemento" max="32767" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jtfLiqHistorico" alignment="0" min="-2" pref="80" max="-2" attributes="0"/>
+                                          <Component id="jlbLiqHistorico" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jlbLiqHistoricoNome" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jtfLiqHistoricoNome" alignment="0" min="-2" pref="159" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jtfLiqConta" alignment="0" min="-2" pref="80" max="-2" attributes="0"/>
+                                          <Component id="jlbLiqConta" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jlbLiqContaNome" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jtfLiqContaNome" alignment="0" min="-2" pref="159" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jtfLiqTipoPgto" alignment="0" min="-2" pref="80" max="-2" attributes="0"/>
+                                          <Component id="jlbLiqTipoPgto" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jlbLiqTipoPgtoNome" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jtfLiqTipoPgtoNome" alignment="0" min="-2" pref="159" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jtfLiqPortador" alignment="0" min="-2" pref="80" max="-2" attributes="0"/>
+                                          <Component id="jlbLiqPortador" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jlbLiqPortadorNome" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jtfLiqPortadorNome" alignment="0" min="-2" pref="159" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Component id="jlbLiqComplemento" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="0" pref="242" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jlbLiqConta" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jlbLiqContaNome" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jtfLiqConta" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jtfLiqContaNome" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jlbLiqHistorico" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jlbLiqHistoricoNome" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jtfLiqHistorico" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jtfLiqHistoricoNome" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jlbLiqTipoPgto" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jlbLiqTipoPgtoNome" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jtfLiqTipoPgto" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jtfLiqTipoPgtoNome" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jlbLiqPortador" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jlbLiqPortadorNome" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jtfLiqPortador" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jtfLiqPortadorNome" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jlbLiqComplemento" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jtfLiqComplemento" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jlbLiqHistorico">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Hist&#xf3;rico"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jtfLiqHistorico">
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbLiqHistoricoNome">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Hist&#xf3;rico - Nome"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jtfLiqHistoricoNome">
+              <Properties>
+                <Property name="enabled" type="boolean" value="false"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbLiqConta">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Conta"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jtfLiqConta">
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbLiqContaNome">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Conta - Nome"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jtfLiqContaNome">
+              <Properties>
+                <Property name="enabled" type="boolean" value="false"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbLiqTipoPgto">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Tipo Pgto"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jtfLiqTipoPgto">
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbLiqTipoPgtoNome">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Tipo Pgto - Nome"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jtfLiqTipoPgtoNome">
+              <Properties>
+                <Property name="enabled" type="boolean" value="false"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbLiqPortador">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Portador"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jtfLiqPortador">
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbLiqPortadorNome">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Portador - Nome"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jtfLiqPortadorNome">
+              <Properties>
+                <Property name="enabled" type="boolean" value="false"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbLiqComplemento">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Complemento"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jtfLiqComplemento">
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jpnDesconto">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Desconto">
+                <Property name="tabTitle" type="java.lang.String" value="Desconto"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jtfDesComplemento" alignment="0" max="32767" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jtfDesHistorico" alignment="0" min="-2" pref="80" max="-2" attributes="0"/>
+                                          <Component id="jlbDesHistorico" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jlbDesHistoricoNome" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jtfDesHistoricoNome" alignment="0" min="-2" pref="159" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jtfDesConta" alignment="0" min="-2" pref="80" max="-2" attributes="0"/>
+                                          <Component id="jlbDesConta" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jlbDesContaNome" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jtfDesContaNome" alignment="0" min="-2" pref="159" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jtfDesTipoPgto" alignment="0" min="-2" pref="80" max="-2" attributes="0"/>
+                                          <Component id="jlbDesTipoPgto" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jlbDesTipoPgtoNome" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jtfDesTipoPgtoNome" alignment="0" min="-2" pref="159" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jtfDesPortador" alignment="0" min="-2" pref="80" max="-2" attributes="0"/>
+                                          <Component id="jlbDesPortador" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jlbDesPortadorNome" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jtfDesPortadorNome" alignment="0" min="-2" pref="159" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Component id="jlbDesComplemento" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jlbDesConta" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jlbDesContaNome" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jtfDesConta" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jtfDesContaNome" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jlbDesHistorico" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jlbDesHistoricoNome" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jtfDesHistorico" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jtfDesHistoricoNome" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jlbDesTipoPgto" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jlbDesTipoPgtoNome" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jtfDesTipoPgto" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jtfDesTipoPgtoNome" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jlbDesPortador" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jlbDesPortadorNome" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jtfDesPortador" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jtfDesPortadorNome" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jlbDesComplemento" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jtfDesComplemento" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jlbDesTipoPgto">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Tipo Pgto"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jtfDesContaNome">
+              <Properties>
+                <Property name="enabled" type="boolean" value="false"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbDesContaNome">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Conta - Nome"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jtfDesComplemento">
+            </Component>
+            <Component class="javax.swing.JTextField" name="jtfDesConta">
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbDesComplemento">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Complemento"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbDesConta">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Conta"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jtfDesPortadorNome">
+              <Properties>
+                <Property name="enabled" type="boolean" value="false"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbDesHistoricoNome">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Hist&#xf3;rico - Nome"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbDesPortadorNome">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Portador - Nome"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jtfDesHistoricoNome">
+              <Properties>
+                <Property name="enabled" type="boolean" value="false"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jtfDesPortador">
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbDesPortador">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Portador"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jtfDesHistorico">
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbDesHistorico">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Hist&#xf3;rico"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jtfDesTipoPgtoNome">
+              <Properties>
+                <Property name="enabled" type="boolean" value="false"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbDesTipoPgtoNome">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Tipo Pgto - Nome"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jtfDesTipoPgto">
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jpnJuros">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Juros">
+                <Property name="tabTitle" type="java.lang.String" value="Juros"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jtfJurComplemento" alignment="0" max="32767" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jtfJurHistorico" alignment="0" min="-2" pref="80" max="-2" attributes="0"/>
+                                          <Component id="jlbJurHistorico" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jlbJurHistoricoNome" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jtfJurHistoricoNome" alignment="0" min="-2" pref="159" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jtfJurConta" alignment="0" min="-2" pref="80" max="-2" attributes="0"/>
+                                          <Component id="jlbJurConta" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jlbJurContaNome" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jtfJurContaNome" alignment="0" min="-2" pref="159" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jtfJurTipoPgto" alignment="0" min="-2" pref="80" max="-2" attributes="0"/>
+                                          <Component id="jlbJurTipoPgto" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jlbJurTipoPgtoNome" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jtfJurTipoPgtoNome" alignment="0" min="-2" pref="159" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jtfJurPortador" alignment="0" min="-2" pref="80" max="-2" attributes="0"/>
+                                          <Component id="jlbJurPortador" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jlbJurPortadorNome" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jtfJurPortadorNome" alignment="0" min="-2" pref="159" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Component id="jlbJurComplemento" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jlbJurConta" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jlbJurContaNome" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jtfJurConta" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jtfJurContaNome" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jlbJurHistorico" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jlbJurHistoricoNome" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jtfJurHistorico" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jtfJurHistoricoNome" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jlbJurTipoPgto" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jlbJurTipoPgtoNome" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jtfJurTipoPgto" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jtfJurTipoPgtoNome" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jlbJurPortador" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jlbJurPortadorNome" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jtfJurPortador" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jtfJurPortadorNome" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jlbJurComplemento" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jtfJurComplemento" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jlbJurTipoPgto">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Tipo Pgto"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jtfJurContaNome">
+              <Properties>
+                <Property name="enabled" type="boolean" value="false"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbJurContaNome">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Conta - Nome"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jtfJurComplemento">
+            </Component>
+            <Component class="javax.swing.JTextField" name="jtfJurConta">
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbJurComplemento">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Complemento"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbJurConta">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Conta"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jtfJurPortadorNome">
+              <Properties>
+                <Property name="enabled" type="boolean" value="false"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbJurHistoricoNome">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Hist&#xf3;rico - Nome"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbJurPortadorNome">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Portador - Nome"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jtfJurHistoricoNome">
+              <Properties>
+                <Property name="enabled" type="boolean" value="false"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jtfJurPortador">
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbJurPortador">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Portador"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jtfJurHistorico">
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbJurHistorico">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Hist&#xf3;rico"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jtfJurTipoPgtoNome">
+              <Properties>
+                <Property name="enabled" type="boolean" value="false"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbJurTipoPgtoNome">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Tipo Pgto - Nome"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jtfJurTipoPgto">
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jpnMulta">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Multa">
+                <Property name="tabTitle" type="java.lang.String" value="Multa"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jtfMulComplemento" alignment="0" max="32767" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jtfMulHistorico" alignment="0" min="-2" pref="80" max="-2" attributes="0"/>
+                                          <Component id="jlbMulHistorico" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jlbMulHistoricoNome" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jtfMulHistoricoNome" alignment="0" min="-2" pref="159" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jtfMulConta" alignment="0" min="-2" pref="80" max="-2" attributes="0"/>
+                                          <Component id="jlbMulConta" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jlbMulContaNome" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jtfMulContaNome" alignment="0" min="-2" pref="159" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jtfMulTipoPgto" alignment="0" min="-2" pref="80" max="-2" attributes="0"/>
+                                          <Component id="jlbMulTipoPgto" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jlbMulTipoPgtoNome" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jtfMulTipoPgtoNome" alignment="0" min="-2" pref="159" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jtfMulPortador" alignment="0" min="-2" pref="80" max="-2" attributes="0"/>
+                                          <Component id="jlbMulPortador" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jlbMulPortadorNome" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jtfMulPortadorNome" alignment="0" min="-2" pref="159" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Component id="jlbMulComplemento" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jlbMulConta" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jlbMulContaNome" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jtfMulConta" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jtfMulContaNome" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jlbMulHistorico" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jlbMulHistoricoNome" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jtfMulHistorico" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jtfMulHistoricoNome" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jlbMulTipoPgto" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jlbMulTipoPgtoNome" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jtfMulTipoPgto" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jtfMulTipoPgtoNome" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jlbMulPortador" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jlbMulPortadorNome" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jtfMulPortador" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jtfMulPortadorNome" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jlbMulComplemento" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jtfMulComplemento" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jlbMulTipoPgto">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Tipo Pgto"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jtfMulContaNome">
+              <Properties>
+                <Property name="enabled" type="boolean" value="false"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbMulContaNome">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Conta - Nome"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jtfMulComplemento">
+            </Component>
+            <Component class="javax.swing.JTextField" name="jtfMulConta">
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbMulComplemento">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Complemento"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbMulConta">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Conta"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jtfMulPortadorNome">
+              <Properties>
+                <Property name="enabled" type="boolean" value="false"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbMulHistoricoNome">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Hist&#xf3;rico - Nome"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbMulPortadorNome">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Portador - Nome"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jtfMulHistoricoNome">
+              <Properties>
+                <Property name="enabled" type="boolean" value="false"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jtfMulPortador">
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbMulPortador">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Portador"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jtfMulHistorico">
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbMulHistorico">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Hist&#xf3;rico"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jtfMulTipoPgtoNome">
+              <Properties>
+                <Property name="enabled" type="boolean" value="false"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbMulTipoPgtoNome">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Tipo Pgto - Nome"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jtfMulTipoPgto">
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="jlbDataLiq">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Data"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlbTotalLiq">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Total"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="jbtLiquidar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Liquidar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbtLiquidarActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlbLancamentoLiq">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Lan&#xe7;amento"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="jcbLancamentoLiq">
+      <Properties>
+        <Property name="editable" type="boolean" value="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jcbLancamentoLiqFocusLost"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlbData">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Data"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="jftData">
+      <Properties>
+        <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+          <Format subtype="0" type="1"/>
+        </Property>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlbEmissao">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Emiss&#xe3;o"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="jftEmissao">
+      <Properties>
+        <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+          <Format subtype="0" type="1"/>
+        </Property>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlbVencimento">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Vencimento"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="jftVencimento">
+      <Properties>
+        <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+          <Format subtype="0" type="1"/>
+        </Property>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlbSerie">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="S&#xe9;rie"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jtfSerie">
+      <Properties>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlbFatura">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Fatura"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jtfFatura">
+      <Properties>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlbPedVendedor">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Ped. Vendedor"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jtfPedVendedor">
+      <Properties>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlbPessoa">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Pessoa"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jtfPessoa">
+      <Properties>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlbPessoaNome">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Pessoa - Nome"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jtfPessoaNome">
+      <Properties>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlbCobranca">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Cobran&#xe7;a"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jtfCobranca">
+      <Properties>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlbCobrancaNome">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Cobran&#xe7;a - Nome"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jtfCobrancaNome">
+      <Properties>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlbHistorico">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Hist&#xf3;rico"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jtfHistorico">
+      <Properties>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlbHistoricoNome">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Hist&#xf3;rico - Nome"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jtfHistoricoNome">
+      <Properties>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlbConta">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Conta"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jtfConta">
+      <Properties>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlbContaNome">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Conta - Nome"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jtfContaNome">
+      <Properties>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlbTipoPgto">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Tipo Pgto"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jtfTipoPgto">
+      <Properties>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlbTipoPgtoNome">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Tipo Pgto - Nome"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jtfTipoPgtoNome">
+      <Properties>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlbPortador">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Portador"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jtfPortador">
+      <Properties>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlbPortadorNome">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Portador - Nome"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jtfPortadorNome">
+      <Properties>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlbValor">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Valor"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="jftValor">
+      <Properties>
+        <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+          <Format format="#,##0.000" subtype="-1" type="0"/>
+        </Property>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlbSaldo">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Saldo"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="jftSaldo">
+      <Properties>
+        <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+          <Format format="#,##0.000" subtype="-1" type="0"/>
+        </Property>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlbRepresentante">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Representante"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jtfRepresentante">
+      <Properties>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlbRepresentanteNome">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Representante - Nome"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jtfRepresentanteNome">
+      <Properties>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlbComissao">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Comiss&#xe3;o"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="jftComissao">
+      <Properties>
+        <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+          <Format format="#,##0.000" subtype="-1" type="0"/>
+        </Property>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlbLiquidar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Liquidar"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlbDesconto">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Desconto"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlbJuros">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Juros"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlbMulta">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Multa"/>
+      </Properties>
+    </Component>
+    <Component class="pin.libamg.EdtNumLon" name="edtLiquidar">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="pin.libamg.EdtNumLon" name="edtDesconto">
+    </Component>
+    <Component class="pin.libamg.EdtNumLon" name="edtJuros">
+    </Component>
+    <Component class="pin.libamg.EdtNumLon" name="edtMulta">
+    </Component>
+    <Component class="pin.libamg.EdtNumLon" name="edtLiqTotal">
+    </Component>
+    <Component class="pin.libamg.EdtDat" name="edtDataLiquidacao">
+    </Component>
+  </SubComponents>
+</Form>
